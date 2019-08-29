@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JqueryUI-Widgets</title>
+	 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/blitzer/jquery-ui.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+	<h1> Jquery UI </h1>
+
+
+
+<!-- menu -->
+<h2> JqueryUI Menu </h2>
+<ul id="menu" class="menu">
+  <li class="ui-state-disabled"><div>Drinks (n/a)</div></li>
+  <li><div>Starters</div></li>
+  <li><div>Main Course</div></li>
+  <li><div>Desserts</div>
+    <ul>
+      <li class=""><div>Chocolate Pudding</div></li>
+      <li><div>Pine Apple Souffle</div></li>
+      <li><div>Ice Cream</div></li>
+    </ul>
+  </li>
+
+</ul>
+
+<h2> JqueryUI Autocomplete search </h2>
+<!-- autocomplete search -->
+ <div class="search">
+  <label class="tags" for="tags">Tags: </label>
+  <input id="tags">
+</div>
+
+
+<div class="floatDiv  clearFix">
+<!-- accordion -->
+<div class="accordionDiv">
+ <h2 class="h2"> JqueryUI Accordion with Selectable</h2>
+<div id="accordion">
+  <h3>Starters</h3>
+  <div>
+
+    <ul class="Starters" id="selectable">
+      <li class="ui-widget-content">Chips</li>
+      <li class="ui-widget-content">Veg Fritters</li>
+      <li class="ui-widget-content">Cheese balls</li>
+    </ul>
+
+  </div>
+  <h3>Main Course</h3>
+  <div>
+    <ul>
+      <li>Vegan</li>
+      <li>Gluten Free</li>
+      <li>Non vegetarian</li>
+    </ul>
+  </div>
+  <h3>Desserts</h3>
+  <div>
+    <ul >
+      <li>American</li>
+      <li>Asian</li>
+
+    </ul>
+  </div>
+   </div>
+ </div>
+
+
+  <!-- spinner -->
+	<div class="spinnerDiv">
+ <h2 class="spinnerHeading"> JqueryUI Spinner </h2>
+  <p class="spinner">
+    <label  for="spinner">Select a value:</label>
+    <input id="spinner" name="value">
+  </p>
+</div>
+  </div>
+
+
+
+ <!-- button -->
+ <h2> JqueryUI Button</h2>
+ <button id="button" class="ui-button ui-widget ui-corner-all">Order Menu</button>
+
+<!-- progress bar -->
+<h2> JqueryUI Progressbar and animation </h2>
+<div id="progressbar">Your order is being processed. Waiting time 10 minutes</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 	<script src="js/script.js"> </script>
+</body>
+</html>

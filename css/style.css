@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body{
+	background-image: linear-gradient(to right, #B0A956, #FCF495);
+	color: #221D40;
+}
+
+.container{
+	width:80%;
+	background: #807B45;
+	margin:auto;
+}
+
+/* menu */
+.menu{
+	width: 500px !important;
+	margin: 50px;
+	color: black;
+	/*background: #8A75FF;*/
+	font-size: 20px;
+}
+
+.ui-menu { width: 150px; }
+
+
+
+h1,h2{
+	margin:50px;
+}
+
+.h2{
+	 margin-top: 25px;
+	 margin-bottom: 50px;
+	 margin-left: 0px;
+
+	 /* width:50%;
+	 float:left; */
+}
+
+/* autocomplete search */
+.search{
+	margin: 50px;
+	/*background: #B0A956;*/
+	width: 60%;
+	/*border: 3px double #453B80;*/
+
+}
+
+#tags{
+background: white;
+height: 25px;
+width:250px;
+
+}
+
+
+
+.floatDiv{
+	height: 500px;
+	margin:50px;
+	/* padding: 50px; */
+	border: 3px double #453B80;
+
+}
+
+.clearFix{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+.accordionDiv{
+	width:48%;
+	height:100%;
+	float:left;
+	/* border: 1px double yellow; */
+	margin-top:50;
+}
+
+/* accordion */
+#accordion{
+	 width: 100%;
+	/* padding: 50px; */
+	/* border:2px solid red; */
+	/* margin-left: -50px; */
+	/* float:left; */
+}
+
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #B0A956; }
+#selectable .ui-selected { background: #B0A956; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#selectable li { margin: 3px; padding: 0.4em; font-size: 0.8em; height: 25px; }
+
+.spinnerDiv{
+	width:48%;
+	float:left;
+
+	margin: 25px 0px 0px 20px;
+}
+.spinner{
+
+	color:#221D40;
+	font-weight: bold;
+	margin:50px 0px 0px 30px;
+
+}
+
+.spinnerHeading{
+
+ margin-top:0px;
+ margin-left: 30px;
+
+
+
+}
+label{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#button{
+ margin-left:50px;
+	color:#221D40;
+	background: #FCF495;
+
+}
+
+
+  #progressbar{
+  	width:70%;
+  	margin:auto;
+  	height:30px;
+  }
+  /* .toggler { width: 48%; height: 300px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect {  position: relative; background: #fff; }*/
+  /*  #effect h3 { margin: 0; padding: 0.4em; text-align: center; }*/
